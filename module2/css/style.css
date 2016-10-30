@@ -1,0 +1,213 @@
+* {
+	box-sizing: border-box;
+    font-family:helvetica;
+}
+
+h1 {
+	
+	color:white;
+    background-color: rgba(47, 47, 47, 0.7);
+	text-align: center;
+    font-size: 175%;
+}
+
+body {
+    background-image: url(http://previews.123rf.com/images/nikkiphoto/nikkiphoto1404/nikkiphoto140400001/27569571-Fresh-organic-vegetables-Food-background-Healthy-food-from-garden-Stock-Photo.jpg);
+        background-size:cover;
+	
+
+}
+
+p {
+	padding: 10px;
+	margin:0px;
+}
+
+.container {
+	border: none;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color: rgba(183, 183, 183, 0.7);
+	width: 100%;
+    padding-bottom: 5%;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+.Food {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 40;
+	margin-top: 0;
+	padding: 5px 0px 10px 0px;
+	background-color: #FFCC00;
+}
+
+#chicken {
+	background-color: #2980b9;
+    color:white;
+}
+#beef {
+	background-color: #e67e22;
+    color:white;
+}
+
+#sushi {
+	background-color: #1abc9c;
+    color:white;
+}
+
+
+}
+
+.row {
+	width: 100%;
+}
+
+/* Desktop view */
+
+@media (min-width: 992px) {
+  .col-ld-1, .col-ld-2, .col-ld-3, .col-ld-4, .col-ld-5, .col-ld-6, .col-ld-7, .col-ld-8, .col-ld-9, .col-ld-10, .col-ld-11, .col-ld-12 {
+    float: left;
+  }
+
+  .col-ld-1 {
+    width: 8.33%;
+  }
+  .col-ld-2 {
+    width: 16.66%;
+  }
+  .col-ld-3 {
+    width: 25%;
+  }
+  .col-ld-4 {
+    width: 33.33%;
+  }
+  .col-ld-5 {
+    width: 41.66%;
+  }
+  .col-ld-6 {
+    width: 50%;
+  }
+  .col-ld-7 {
+    width: 58.33%;
+  }
+  .col-ld-8 {
+    width: 66.66%;
+  }
+  .col-ld-9 {
+    width: 74.99%;
+  }
+  .col-ld-10 {
+    width: 83.33%;
+  }
+  .col-ld-11 {
+    width: 91.66%;
+  }
+  .col-ld-12 {
+    width: 100%;
+  }
+
+}
+
+/* Tablet view */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/* Mobile view */
+
+@media (max-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+ 	float: left;
+  }
+
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 74.99%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
