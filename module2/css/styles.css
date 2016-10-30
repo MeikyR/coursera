@@ -119,6 +119,7 @@ section {
   .col-ld-12 {
     width: 100%;
   }
+         h1{position: relative; margin-top:0px;}
 
 }
 
@@ -165,6 +166,7 @@ section {
   .col-md-12 {
     width: 100%;
   }
+     h1{position: relative; top:7px;}
 }
 
 /* Mobile view */
@@ -210,4 +212,6 @@ section {
   .col-sm-12 {
     width: 100%;
   }
+        h1{position: relative; top:18px;}
+
 }
