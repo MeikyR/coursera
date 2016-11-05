@@ -1,1 +1,167 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+#header-nav{
+  border-radius: 0px;
+}
+
+h1 {
+  font-family: Helvetica, fantasy;
+  color: #000000;
+}
+
+body {
+  background-image: url("http://www.abouttimemagazine.co.uk/wp-content/uploads/2015/08/static1.squarespace-1.jpg");
+  background-color: ##16a085;
+
+}
+
+#menutitle{
+  text-align: center;
+  vertical-align: center;
+  background-color: rgba(255,255,255,0.7);
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+
+section {
+  border: 1px solid gray;
+  background-color: rgba(255,255,255,0.7);
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#chicken {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #f1c40f;
+  color: #2c3e50;
+
+}
+
+#beef {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #e67e22;
+  color: #2c3e50;
+
+
+}
+
+#sushi {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #d35400;
+  color: #2c3e50;
+  padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #16a085;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+ 
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.2em;
+}
+
+
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
+
+.item:hover{
+font-weight: bold;
+font-size: 1.5em;}
+
+.backtotop{
+  color:gray;
+}
+
+.backtotop:hover{
+font-weight: bold;}
+
 
